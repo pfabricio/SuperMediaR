@@ -1,0 +1,7 @@
+﻿namespace SuperMediaR.Core.Interfaces;
+
+public interface ICachableQuery<TResult> : IQuery<TResult>
+{
+    string CacheKey { get; }
+    TimeSpan? Expiration { get; }
+}
