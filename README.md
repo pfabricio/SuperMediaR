@@ -19,16 +19,6 @@
 
 ---
 
-## 📦 Instalação
-
-Via NuGet:
-
-```bash
-dotnet add package SuperMediaR
-```
-
----
-
 ## ⚙️ Configuração
 
 ### 1. Adicione no seu `Program.cs`:
